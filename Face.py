@@ -7,4 +7,3 @@ print("((  O O  ))")
 print("  |  V  |  ")
 print("  | === |  ")
 print("   -----   ")
-print("
