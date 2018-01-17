@@ -2,5 +2,6 @@
 #1/17/18
 #km2miles.py - converting km to miles
 km=int(input("KM to convert?"))
-miles=int(km*0.621371)
+miles=(km*0.621371)
+miles=round(miles,3)
 print(km,"km" " is",miles,"miles")
