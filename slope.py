@@ -11,4 +11,4 @@ slope=float(round((y1-y2)/(x1-x2), 3))
 print("The slope is", slope)
 
 b=float(y1-slope*x1)
-print("The equation of the line is y = ",slope,"x +", b)
+print("The equation of the line is y =",slope,"x +", b)
