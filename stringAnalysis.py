@@ -3,8 +3,11 @@
 #stringAnalysis.py - words and character counts
 
 sentence=input("Enter a sentence ")
-characters=len(sentence)
-letters=(characters-sentence.count(" "))
-findchar=input("Enter a character to search for ")
+characters=int(len(sentence))
+letters=int((characters-sentence.count(" ")))
+#findchar=input("Enter a character to search for ")
+print(letters)
+print("Your sentence has", (sentence.count(" "))+1, "words and", characters, "characters and",)
+#letters, "letters".)
 
-print("Your sentence has", characters/(characters-sentence.count(" "), "words and", characters "characters and", letters "letters")
+
