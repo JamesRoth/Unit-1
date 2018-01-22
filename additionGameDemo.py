@@ -6,4 +6,5 @@ from random import randint
 
 num1 = randint(-10, 10)
 num2 = randint(-10,10)
-print(num1, "+", num2)
+print(num1, "+", num1)
+ans=int(input("= ?"))
