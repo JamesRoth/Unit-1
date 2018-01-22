@@ -5,7 +5,7 @@
 sentence=input("Enter a sentence: ")
 characters=int(len(sentence))
 letters=int((characters-sentence.count(" ")))
-findchar=input(str("Enter a character to search for "))
+findchar=input("Enter a character to search for: ")
 
 print("Your sentence has", (sentence.count(" "))+1, "words and", characters, "characters and", letters, "letters.")
-print("Your sentence has" sentence.count(findchar), "of the character", findchar)
+print("Your sentence has", sentence.count(findchar), "of the character", findchar)
