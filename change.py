@@ -9,4 +9,4 @@ print("Dimes: ", change//10)
 change=change%10
 print("Nickels: ", change//5)
 change=change%5
-print("Pennies"
+print("Pennies: ", change)
